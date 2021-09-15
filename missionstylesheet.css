@@ -1,0 +1,116 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+    list-style: none;
+  }
+  .header {
+    background-color: #fbfdfd;
+    height: 120px;
+  }
+  .MyTitle{
+    font-family: "Georgia";
+    font-size: 40px;
+    padding-top: 40px;
+    color:rgb(177, 41, 240);
+  }
+  .header-logo {
+    float: left;
+    padding: 10px 20px;
+  }
+  
+  .header-list a{
+    line-height: 65px;
+    padding: 0 25px;
+    color:rgb(255, 0, 221);;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  a {
+    text-decoration: none;
+    margin:0px;
+  }
+
+  .selected {
+    border: 3px solid green;
+    padding: 3px 3px;
+    color:rgb(255, 0, 221);
+    background-color: bisque;
+  }
+  * {box-sizing:border-box}
+
+
+
+  .footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;  
+  }
+  .foot{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:teal;
+  }
+  
+  .Contact{
+    background-color:teal;
+    padding:20px;
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+  
+  .Links{
+    background-color:teal;
+    padding: 20px;
+    width: 50%;
+    float: right;
+    text-align:center;   
+  }
+  
+  .developer {
+      width: 100%;
+      background-color:teal;
+      text-align: center;
+      float:none;
+  }
+  
+  .header-list a {
+    float: left;
+    padding: 3px 23px;
+    color:rgb(255, 0, 221);
+    display: block;
+  }
+  .select{
+      color: #d83520;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .para{
+      align-items: center;
+      float: center;
+      align-content: center;
+  }
+  .fa-linkedin{
+    background: #49a7e6;
+    color: rgb(243, 241, 248);
+    text-align:center;   
+    margin-right:20px;
+  }
+  
+  .fa-github{
+    background: #d83520;
+    color: white;
+    text-align:center;
+    margin-right:20px;
+  }
